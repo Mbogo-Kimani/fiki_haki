@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Fikia Haki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Fikia Haki</div>
+        <nav class="navbar">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="profile.html">Profile</a></li> <!-- Profile link -->
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h1>Welcome to Fikia Haki</h1>
+            <p>Your access to legal services starts here. We are committed to providing accessible legal aid to all citizens.</p>
+        </section>
+
+        <section class="about">
+            <h2>About Us</h2>
+            <p>Fikia Haki connects citizens with legal aid and information, empowering them through legal knowledge and support.</p>
+        </section>
+
+        <section class="lawyer-profiles">
+            <h2>Lawyer Profiles</h2>
+            <div class="profiles-container">
+                <div class="card">
+                    <img src="lawyer1.jpg" alt="Jane Doe" class="lawyer-photo">
+                    <h3>Jane Doe</h3>
+                    <p>Specialization: Family Law</p>
+                    <p>Experience: 5 years</p>
+                    <a href="#">View Profile</a>
+                </div>
+                <div class="card">
+                    <img src="lawyer2.jpg" alt="John Smith" class="lawyer-photo">
+                    <h3>John Smith</h3>
+                    <p>Specialization: Criminal Law</p>
+                    <p>Experience: 8 years</p>
+                    <a href="#">View Profile</a>
+                </div>
+                <div class="card">
+                    <img src="lawyer3.jpg" alt="Mary Johnson" class="lawyer-photo">
+                    <h3>Mary Johnson</h3>
+                    <p>Specialization: Corporate Law</p>
+                    <p>Experience: 10 years</p>
+                    <a href="#">View Profile</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="reviews">
+            <h2>Reviews</h2>
+            <div class="review">
+                <p><strong>Client:</strong> Alice</p>
+                <p>"Fikia Haki provided me with the best legal advice. Highly recommend!"</p>
+            </div>
+            <div class="review">
+                <p><strong>Client:</strong> Bob</p>
+                <p>"Thanks to Fikia Haki, I was able to find a great lawyer for my case!"</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fikia Haki. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.getElementById('nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>

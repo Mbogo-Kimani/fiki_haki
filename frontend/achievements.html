@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Achievements - Fikia Haki</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Fikia Haki</div>
+        <nav class="navbar">
+            <div class="menu-icon" id="menu-icon">&#9776;</div>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="chat.html">Chat</a></li>
+                <li><a href="profile.html">Profile</a></li> <!-- Profile link -->
+            </ul>
+        </nav>
+    </header>
+
+    <main class="achiv">
+        <section class="card">
+            <h2>What We've Accomplished</h2>
+            <ul>
+                <li>Provided legal aid to over 500 citizens.</li>
+                <li>Organized community legal workshops.</li>
+                <li>Launched the Fikia Haki mobile app for easier access to legal services.</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Fikia Haki. All rights reserved.</p>
+    </footer>
+
+    <script>
+        const menuIcon = document.getElementById('menu-icon');
+        const navLinks = document.getElementById('nav-links');
+
+        menuIcon.addEventListener('click', () => {
+            navLinks.classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
